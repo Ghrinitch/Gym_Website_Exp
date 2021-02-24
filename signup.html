@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="signup.css">
+    <title></title>
+  </head>
+  <body>
+
+    <header>
+      <img src="logo.png" alt="crative inc. logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="home.html">home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="signup1">
+
+        <fieldset>
+
+        <form class="signup" action="signup2.html">
+          <input class="text" type="text" name="name" placeholder="Enter your name" required><br>
+
+          <input class="text" type="text" name="Sur" placeholder="Enter your surname" required><br>
+
+          <label class="sexe"><input type="radio" name="sexe" value="Male" required>Male</label>
+          <label class="sexe"><input type="radio" name="sexe" value="Female" >Female</label><br>
+
+          <input class="text" type="number" name="age" placeholder="Age" min="13" required><br>
+
+          <input class="text" type="email" name="email" placeholder="Enter your Email"><br>
+
+          <input class="text" type="tel" name="Tel" pattern=".{8}" placeholder="Enter your number" min="20000000" max="99999999" required><br>
+
+          <select required>
+            <option value="">--Select Course--</option>
+            <option value="Bodybuilding">Bodybuilding</option>
+            <option value="Fitness">Fitness</option>
+            <option value="Cardio">Cardio</option>
+          </select><br>
+
+          <select>
+            <option value="">--Select Trainer--</option>
+            <option value="none">No Trainer</option>
+            <option value="Midou">Midou</option>
+            <option value="Janet">Janet</option>
+            <option value="Tibou">Tibou</option>
+          </select><br>
+
+          <input class="text" type="text" name="coupon" placeholder="Enter Coupon Code"><br>
+
+          <input class="button" type="submit" value="Submit">
+          <input class="button" type="Reset">
+        </form>
+      </fieldset>
+    </section>
+
+    <footer>
+        <p>Find us on:
+          <ul>
+            <li><a href="https://www.facebook.com/bourlafourme" target="_blank"> <img src="fb.png" alt="Facebook"> </a></li>
+            <li><a href="https://www.instagram.com/bourlafourme3/" target="_blank"> <img src="inst.png" alt="Instagram"> </a></li>
+          </ul>
+        </p>
+
+        <div class="contact">
+          Adresse:<br> 23 rue 61036 Ennasr 1 <br>
+          Email us:<br> bourlafourme@gmail.com <br>
+          Call us: 22113344
+        </div>
+
+    </footer>
+
+  </body>
+</html>

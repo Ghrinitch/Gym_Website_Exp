@@ -1,0 +1,221 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-shadow: black 2em;
+  background:rgba(0, 0, 0, 0);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/********************* Buttons *********************/
+
+.button{
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-width: 4px;
+  border-style: solid;
+  margin-top: 1em;
+  padding: .4em 1.75em;
+  color: white;
+  border-color: black;
+}
+
+.button-small{
+  border-width: 0.15em;
+  padding: 0.5em;
+  font-size: 1.5rem;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  color: white;
+  border-color: black;
+}
+
+
+.button-accent:hover, .button-accent:focus{
+  background: #f8f403;
+  color: black;
+  border-color: black;
+}
+.button-accent1:hover, .button-accent:focus{
+  background: #f8f403;
+  color: black;
+  border-color: black;
+}
+
+
+
+/********************* Header *********************/
+
+header{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.logo{
+  float:left;
+  width: 8%;
+  margin-left: 0.5em;
+  margin-top: 0.15em;
+}
+
+/****** Navigation menu ******/
+
+nav{
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0;
+  border-width: 1px;
+  border-style: none;
+  padding: 1em 0em;
+}
+
+nav li:hover, nav li:focus{
+  background: yellow;
+}
+
+nav a{
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 2em;
+  color:  white;
+}
+
+nav a:hover{
+  color: black;
+}
+
+/**************************** quote **************************/
+.quote{
+  background-image: url(interior.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 1px 1px grey;
+  padding: 10em 0;
+  color:  white;
+  height: 100vh;
+  padding-top: 35vh;
+}
+
+.container{
+  height: 50%;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 4rem;
+}
+
+.title span{
+  font-weight: 300;
+  display: block;
+}
+
+/********************* Courses *********************/
+
+
+.courses {
+  margin-left: 0;
+  background-color: black;
+  padding: 0.01em;
+  color: white;
+}
+
+.course-item{
+  position: relative;
+  margin: 0;
+  width: 33.33333334%;
+  float: right;
+  font-weight: bold;
+}
+
+.Course-desc{
+  position: absolute;
+  bottom: 0.1em;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 1));
+  padding-top: 4.1em;
+  padding-bottom: 0em;
+  font-size: 2em;
+}
+
+.Course-desc img{
+  display: block;
+}
+
+
+figcaption{
+    opacity: 0%;
+}
+
+figcaption:hover, figcaption:focus{
+  opacity:100%;
+}
+
+/*********************About*********************/
+
+footer{
+  margin-top: -0.32em;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: justify;
+  float: left;
+  font-size: 1em;
+}
+
+footer p{
+  margin-left: 2.5em;
+}
+
+
+footer ul{
+  list-style: none;
+  display: inline-block;
+  margin: -0.7em;
+}
+
+footer ul li{
+  float: left;
+  padding-right: 0.2em;
+  width: 8%;
+}
+
+.contact{
+  float: right;
+  margin-top: -5em;
+  margin-right: 3.5em;
+  margin-left: 2em;
+}
